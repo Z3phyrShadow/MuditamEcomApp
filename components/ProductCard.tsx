@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import {
   View,
@@ -17,6 +16,7 @@ type ProductCardProps = {
   imageUrl: string;
   isOnSale: boolean;
   onAddToCart: (productName: string) => void;
+  
   //Props for no-code customization demonstration
   layout?: 'vertical' | 'horizontal';
   buttonColor?: string;
