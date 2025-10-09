@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+# Muditam E-commerce App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple and customizable e-commerce product card application built with React Native and Expo. This application showcases a product card with dynamic features and a modern UI.
 
-## Get started
+## Features
 
-1. Install dependencies
+*   **Product Card:** Displays product information including name, price, and image.
+*   **Layout Toggle:** Switch between a vertical and horizontal card layout.
+*   **Color Change:** Change the "Add to Cart" button color randomly.
+*   **Price Visibility:** Show or hide the product price.
+*   **Sale Badge:** A "SALE" badge is displayed if the product is on sale.
 
-   ```bash
-   npm install
-   ```
+## Getting Started
 
-2. Start the app
+### Prerequisites
 
-   ```bash
-   npx expo start
-   ```
+*   [Node.js](https://nodejs.org/) (LTS version recommended)
+*   [Expo Go](https://expo.dev/go) app on your mobile device (for testing on a physical device)
+*   [Android Studio](https://developer.android.com/studio) or [Xcode](https://developer.apple.com/xcode/) for emulators/simulators.
 
-In the output, you'll find options to open the app in a
+### Installation
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1.  **Clone the repository:**
+    ```bash
+    git clone <repository-url>
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd MuditamEcomApp
+    ```
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Running the Application
 
-## Get a fresh project
+1.  **Start the development server:**
+    ```bash
+    npm start
+    ```
+    or
+    ```bash
+    npx expo start
+    ```
+2.  **Run on your device or emulator:**
+    - Scan the QR code with the Expo Go app on your Android or iOS device.
+    - Press `a` to run on an Android emulator.
+    - Press `i` to run on an iOS simulator.
+    - Press `w` to run in a web browser.
 
-When you're ready, run:
+## Customization
 
-```bash
-npm run reset-project
-```
+The application provides controls to demonstrate the dynamic nature of the product card:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+*   **Toggle Layout:** Switches the product card between vertical and horizontal layouts.
+*   **Change Color:** Randomly changes the color of the "Add to Cart" button.
+*   **Toggle Price:** Shows or hides the price on the product card.
