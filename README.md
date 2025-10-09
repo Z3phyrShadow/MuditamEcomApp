@@ -1,4 +1,4 @@
-# Muditam E-commerce App
+# Muditam Internship Assignment
 
 A simple and customizable e-commerce product card application built with React Native and Expo. This application showcases a product card with dynamic features and a modern UI.
 
