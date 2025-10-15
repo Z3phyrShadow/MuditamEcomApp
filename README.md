@@ -56,3 +56,7 @@ The application provides controls to demonstrate the dynamic nature of the produ
 *   **Toggle Layout:** Switches the product card between vertical and horizontal layouts.
 *   **Change Color:** Randomly changes the color of the "Add to Cart" button.
 *   **Toggle Price:** Shows or hides the price on the product card.
+
+## AI Usage
+
+AI was used in helping me write the Readme.md, setting up the work environment, and solving occasional errors.
