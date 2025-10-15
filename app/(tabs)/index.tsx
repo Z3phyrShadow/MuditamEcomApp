@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { StyleSheet, View, TouchableOpacity, Text } from 'react-native';
 import ProductCard from '@/components/ProductCard';
 
-// Helper to get a random color for demonstration
+// Function to get a random color for demonstration
 const getRandomColor = () => {
   const letters = '0123456789ABCDEF';
   let color = '#';
